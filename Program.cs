@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_PrimeiroProjeto
+namespace _2_CriandoVariaveis
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá, Mundo");
-            Console.WriteLine("A execução acabou, para finalizar tecla ENTER...");
+            Console.WriteLine("Executando projeto 2 - Criando Variáveis");
+
+            Console.WriteLine("ola novo teste");
+
+            int idade = 37;
+
+            Console.WriteLine("a idade é " + idade + " anos, parabéns!");
             Console.ReadLine();
         }
     }
